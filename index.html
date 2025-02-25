@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NGO Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+        <div>
+           <h1>EduRise Foundation</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="mobile-menu-btn">☰</button>
+    </div>
+</header>
+
+
+<div class="mobile-menu">
+    <ul>
+        <li><a href="#hero" class="mobile-link">Home</a></li>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#programs" class="mobile-link">Programs</a></li>
+        <li><a href="#impact" class="mobile-link">Impact</a></li>
+        <li><a href="#donate" class="mobile-link">Donate</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+</div>
+
+
+<section id="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h2>Empowering Children Through Education</h2>
+            <p>We believe every child deserves quality education regardless of their background. Join us in creating a brighter future for underprivileged children.</p>
+            <div class="hero-buttons">
+                <a href="#programs" class="btn">Our Programs</a>
+                <a href="#donate" class="btn btn-accent">Donate Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="about">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About EduRise Foundation</h2>
+                <p>BrightFuture is a non-profit organization dedicated to providing quality education to underprivileged children around the world. Founded in 2021, we've been working tirelessly to bridge the education gap and create opportunities for children from disadvantaged backgrounds.</p>
+                <p>Our mission is simple: to ensure that every child, regardless of their socioeconomic status, has access to quality education and the resources they need to succeed in life.</p>
+                <a href="#programs" class="btn">Explore Our Programs</a>
+            </div>
+            <div class="about-img">
+                <img src="images/banner.jpg" alt="Banner">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="programs">
+    <div class="container">
+        <h2 class="text-center">Our Programs</h2>
+        <p class="text-center">We offer a range of programs designed to provide holistic education and support to underprivileged children.</p>
+        <div class="programs-grid">
+            <div class="program-card">
+                <div class="program-img">
+                    <img src="images/school.jpg" alt="School Establishment Program">
+                </div>
+                <div class="program-content">
+                    <h3>School Establishment</h3>
+                    <p>We build and renovate schools in underserved communities, ensuring children have a safe environment for learning.</p>
+                </div>
+            </div>
+            <div class="program-card">
+                <div class="program-img">
+                    <img src="images/scholarship.jpg" alt="Scholarship Program">
+                </div>
+                <div class="program-content">
+                    <h3>Scholarship Program</h3>
+                    <p>We provide scholarships to talented but underprivileged children, covering their educational expenses.</p>
+                   
+                </div>
+            </div>
+            <div class="program-card">
+                <div class="program-img">
+                    <img src="images/digital.jpg" alt="Digital Literacy Program">
+                </div>
+                <div class="program-content">
+                    <h3>Digital Literacy</h3>
+                    <p>We provide computer labs and digital literacy programs to prepare children for the digital age.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="impact">
+    <div class="container">
+        <h2>Our Impact</h2>
+        <p>Over the years, we've made a significant impact in the lives of thousands of children.</p>
+        <div class="impact-stats">
+            <div class="stat-item">
+                <div class="stat-number" data-target="15">0</div>
+                <p>Schools Built</p>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="300">0</div>
+                <p>Children Educated</p>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="100">0</div>
+                <p>Scholarships Awarded</p>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="20">0</div>
+                <p>Communities Served</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="donate">
+    <div class="container">
+        <h2>Make a Donation</h2>
+        <p>Your contribution can help us provide quality education to more underprivileged children.</p>
+        <div class="donate-options">
+            <div class="donate-card">
+                <h3>Learning Essentials</h3>
+                <div class="donate-amount">₹1999</div>
+                <p>Provides basic school supplies for one child for a month</p>
+                <button class="btn donation-btn" data-amount="25">Donate $25</button>
+            </div>
+            <div class="donate-card">
+                <h3>Tuition Assistance</h3>
+                <div class="donate-amount">₹3999</div>
+                <p>Covers one month of tuition fees for a child</p>
+                <button class="btn donation-btn" data-amount="100">Donate ₹4999</button>
+            </div>
+            <div class="donate-card">
+                <h3>Classroom development</h3>
+                <div class="donate-amount">₹8999</div>
+                <p>Helps renovate a classroom for better learning</p>
+                <button class="btn donation-btn" data-amount="500">Donate ₹10000</button>
+            </div>
+        </div>
+
+        <div class="donate-form" id="donationForm">
+            <h3>Donation Information</h3>
+            <div class="form-group">
+                <label for="donationAmount">Donation Amount (₹)</label>
+                <input type="number" id="donationAmount" value="25" min="5">
+            </div>
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" placeholder="John Doe">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="johndoe@example.com">
+            </div>
+            <div class="payment-info">
+                <h3>Payment Information</h3>
+                <div class="form-group">
+                    <label for="cardNumber">Card Number</label>
+                    <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456">
+                </div>
+                <div class="card-row">
+                    <div class="form-group">
+                        <label for="expiryDate">Expiry Date</label>
+                        <input type="text" id="expiryDate" placeholder="MM/YY">
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" placeholder="123">
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-accent" id="submitDonation">Complete Donation</button>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><strong>Address:</strong> 159 Silicon Street, India</p>
+            <p><strong>Email:</strong> info@EduRiseFoundation.org</p>
+            <p><strong>Phone:</strong> +910000012345</p>
+        </div>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="contactName">Your Name</label>
+                <input type="text" id="contactName" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="contactEmail">Your Email</label>
+                <input type="email" id="contactEmail" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label for="contactMessage">Message</label>
+                <textarea id="contactMessage" rows="5" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+        <p>Made by Alvira Singhodiya | All rights reserved.</p>
+    </div>
+</footer>
+
+
+<div class="modal" id="successModal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="success-icon">✓</div>
+        <h3>Thank You for Your Donation!</h3>
+        <p>Your contribution will help provide quality education to underprivileged children.</p>
+        <p>A confirmation email has been sent to your email address.</p>
+        <button class="btn btn-success" id="closeModal">Close</button>
+    </div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
